@@ -1,0 +1,38 @@
+Machine Learning Project on Ensemble Modeling
+
+Aim is to build ensemble model to improve the accuracy of the model.
+
+1.Data Exploration
+
+For this project, I taken the data set from UCI Machine Learning Repository
+
+load the data into R and look at it closely.
+
+2. Data Cleaning
+
+Let’s check for missing values. Impute missing values with median.
+
+3. I have divided the data into two parts which I’ll be using to simulate the training and testing operations. 
+
+4. training a random forest and test its accuracy on the test set.
+
+0.81 accuracy with the individual random forest model.
+
+5.Training the knn model.
+
+0.86 accuracy with the individual KNN model.
+
+6.Training the Logistic regression model
+logistic regression also gives us the accuracy of 0.86
+
+7.tried out different ways of forming an ensemble with these models 
+
+8.tried applying logistic regression and GBM as top layer models with the following steps.
+
+1.Train the individual base layer models on training data.
+
+2.Predict using each base layer model for training data and test data.
+
+3.Now train the top layer model again on the predictions of the bottom layer models that has been made on the training data.
+
+4.Finally, predict using the top layer model with the predictions of bottom layer models that has been made for testing data.
