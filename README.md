@@ -3,7 +3,7 @@ Project name: Machine Learning Project on Ensemble modeling
 
 Description:This project is to build ensemble model to improve the accuracy of model. This project will demonstrate how to make the model more robust and stable thus ensuring decent performance on the test cases in most scenarios.You can use ensembling to capture linear and simple as well non-linear complex relationships in the data. This can be done by using two different models and forming an ensemble of two.
 
-Table of Contents: types of emsembling: Averaging,Majority Vote,Weighted Average. Algorithms used for stop layer model are GBM, Logistic Regression, for bottom layer models are Random Forest, KNN,Logistic Regression.
+Table of Contents: types of emsembling: Averaging,Majority Vote,Weighted Average. Algorithms used for top layer model are GBM, Logistic Regression, for bottom layer models are Random Forest, KNN,Logistic Regression.
 
 Installation: 1. download R it is opensource 2. open R studio and upload imbalancedproject folder.
 
